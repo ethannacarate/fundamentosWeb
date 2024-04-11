@@ -2,9 +2,35 @@
 *{
     outline: solid black;
 }
-
 body { /*seleccion de body*/
 font-family: Arial, Helvetica, sans-serif ; /* cambia tipografia*/
-margin: 0; /* elimina todo el margen predefinido */
+margin: 0; /* elimino todo el margen predefinido */
 padding: 0; /*elimina todo el relleno de los elementos*/
+}
+/* acá viene el estilo de una clase container*/
+.container{
+    width: 80%; /* establece el ancho del contenedor en 80% */ 
+     margin: 0 auto; /* centra horizontalmente el elemento */
+}
+/* estilo encabezado*/
+header {
+     background-color: #333; /*establece el color de fondo*/
+     color: #fff; /* establece el color del texto*/
+     padding: 20PX 0; /* añade relleno suerior*/ 
+}
+header h1{
+    margin: 0; /* elimina el margen por defecto del titulo*/
+}
+/*estilo de elemento de lista*/
+nav ul li{
+    display: inline;  /* alinea los elementos */
+    margin-right: 20px;  /*margen hacia la derecha*/
+}
+ /* estilo a elementos de vinculo ancla de navegacion*/
+ nav ul li a{
+    color: #fff;  /*color  a elemento anchor*/
+    text-decoration: none;  /*quita subrrallado de enlaces*/
+ }
+body {
+    background-color: bisque;
 }
