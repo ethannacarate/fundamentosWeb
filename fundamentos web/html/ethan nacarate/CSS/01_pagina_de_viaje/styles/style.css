@@ -55,7 +55,7 @@ body { /* Selección de body */
     
     .btn{
         background-color: #007bff; /* Color fondo boton */
-        color: #fff; /* Color del texto del boton */
+        color: #ffffff; /* Color del texto del boton */
         padding: 10px 20px; /* Relleno del boton */
         text-decoration: none; /* Quita decoración de enlace*/
     }
@@ -91,6 +91,40 @@ body { /* Selección de body */
         text-align: center; /* Centra el texto */
         padding: 20px 0; /* Añade relleno superior e inferior */
     }
-body {
+    /*aqui va el estilo del formulario de contacto*/
+    #contacto{
+        padding: 40px 0;
+    }
+#contacto.container{
+    text-align: ceneter;
+}
+#contacto h2{
+    margin-bottom: 20px;
+}
+#contacto form{
+    max-width: 500px;/*establece el ancho maximo de del elemento formulario*/
+    margin: 0 auto; /*centra horizontalmente dentro del contenedor*/
+    padding: 20px;
     background-color: bisque;
+    border-radius: 8px;
+    box-shadow:0 0 20px rgba(0, 0, 0, 1); /*establece una sombra al rededor del formulario*/
+}
+#contacto label{
+    display:block; /*etiquetas en bloque*/
+    margin-bottom: 10px;
+    font-weight: bold; /*establece la fuente negrita*/
+}
+#contacto input, #contacto textarea{
+    width: 100%;
+    padding:10PX;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box; /*incluye el padding y el borde del a*/
+}
+#contacto textarea{
+    resize: vertical;
+}
+body{
+background-color: beige;
 }
