@@ -1,9 +1,8 @@
-/* Estilos de pagina de viajes  
-*{
+/* Estilos de pagina de viajes{
     outline: solid rgb(255, 255, 255);
 }
 */
-body { /* Selección de body */
+#body { /* Selección de body */
     font-family:Arial, sans-serif ; /* Cambia tipografia */
     margin: 0; /* Elimina todo el margen predefinido */
     padding: 0; /* Elimina todo el relleno de los elementos */
@@ -14,7 +13,7 @@ body { /* Selección de body */
         margin: 0 auto; /* Centra horizontalmente el contenedor */
     }
     /* Estilo de encabezado */
-    header {
+   header {
         background-color: #333; /* Establece el color de fondo */
         color: #fff; /* Establece el color del texto */
         padding: 20px 0; /* Añade relleno superior e inferior */
@@ -34,7 +33,7 @@ body { /* Selección de body */
         text-decoration: none; /* Quita subrayado de enlaces */
     }
     
-    section {
+    #section {
         padding: 40px 0; /* Añade relleno superior e inferior  */
     }
     
@@ -43,13 +42,13 @@ body { /* Selección de body */
         background-size: cover; /* Ajusta la imagen al área del banner */
         color: #fff; /* Establece color del texto */
         text-align: center; /* Centra el texto del banner*/
-        padding: 100px 0; /* Define relleno superior e inferior */
+        padding: 10px 0; /* Define relleno superior e inferior */
     }
     #banner h2{
-        font-size: 36px; /* Establece tamaño de h2 */
+        font-size: 46px; /* Establece tamaño de h2 */
     }
     #banner p{
-        font-size: 18px; /* Establece tamaño de p */
+        font-size: 28px; /* Establece tamaño de p */
         margin-bottom: 20px; /* Define margen inferior*/
     }
     
@@ -61,7 +60,7 @@ body { /* Selección de body */
     }
     /* Estilo cuando pasa puntero sobre el boton */
     .btn:hover {
-        background-color: #0056b3; /* Establece color de fondo en hover boton */
+        background-color: #01172e; /* Establece color de fondo en hover boton */
     }
 
     .destinos-container{
@@ -127,4 +126,12 @@ body { /* Selección de body */
 }
 body{
 background-color: beige;
+}
+#alojamiento .container{
+    width: 80%;
+    margin: 0 auto;
+}
+#alojamiento nav ul li{
+    display:inline; /* Alinea los elementos */
+    margin-right: 20px; /* Margen hacia la derecha */
 }
