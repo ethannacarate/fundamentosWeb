@@ -13,7 +13,7 @@
         margin: 0 auto; /* Centra horizontalmente el contenedor */
     }
     /* Estilo de encabezado */
-   header {
+    header {
         background-color: #333; /* Establece el color de fondo */
         color: #fff; /* Establece el color del texto */
         padding: 20px 0; /* Añade relleno superior e inferior */
@@ -51,7 +51,8 @@
         font-size: 28px; /* Establece tamaño de p */
         margin-bottom: 20px; /* Define margen inferior*/
     }
-    
+    #banner h2{
+        font-size: 46px; /* Establece tamaño de h2 */}
     .btn{
         background-color: #007bff; /* Color fondo boton */
         color: #ffffff; /* Color del texto del boton */
