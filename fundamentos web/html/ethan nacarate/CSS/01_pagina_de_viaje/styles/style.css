@@ -136,3 +136,8 @@ background-color: beige;
     display:inline; /* Alinea los elementos */
     margin-right: 20px; /* Margen hacia la derecha */
 }
+#misviajes.destin-container{
+    display: flex; /* utiliza flexbox para alinear los elementos*/
+    justify-content: space-between; /*distribuye uniformemente los elementos*/
+    flex-wrap: wrap; /*si los elementos no caben en la misma linea agrega una nueva*/
+}
