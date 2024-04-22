@@ -1,0 +1,211 @@
+/* Estilos de pagina de viajes  */
+*{
+    outline:#333 solid black; 
+}
+body { /* Selección de body*/
+font-family: Arial, sans-serif ; /* Cambia tipografía */
+margin: 0; /* Elimina todo el margen predefinido*/
+padding: 0; /* Elimina todo el relleno de los elementos*/
+}
+/*Acá viene el estilo de una clase container*/
+.container {
+    width: 80%; /* establece el ancho del contenedor en un 80% */
+    margin: 0 auto; /* centra horizontalmente el contenedor */
+}
+
+/* estilo de encabezado*/
+header {
+    background-color: #333; /* establece el color de fondo */
+    color: #fff; /* establece el color del texto*/
+    padding: 20px 0; /* añadir relleno superior e inferior*/
+}
+
+header h1{
+    margin: 0; /* elimina el margen por defecto del título*/
+}
+/* estilo de elemento de lista*/
+nav ul li{
+    display:inline; /*alinea los elementos*/
+    margin-right: 20px; /*margen hacia la derecha*/
+}
+/*estilo a elementos de vinculo ancla de navegación*/
+nav ul li a{
+    color: #fff; /*color a elemento anchor*/
+    text-decoration: none; /*quita subrayado de enlaces*/
+}
+
+section {
+    padding: 40px 0; /*añade relleno superior e inferior */
+}
+
+#banner{
+    background-image: url('https://via.placeholder.com/1500x500'); /* establece la imagen de fondo del banner*/
+    background-size: cover; /* ajusta la imagen al área del banner*/
+    color: #fff; /*establece color del texto*/
+    text-align: center; /*centra el texto del banner*/
+    padding: 100px 0; /* define relleno superior e inferior*/
+}
+#banner h2{
+    font-size: 36px; /*establece tamaño de texto de h2*/
+}
+#banner p{
+    font-size: 18px; /* estbalece tamaño de p*/
+    margin-bottom:20px; /*define margen inferior*/
+}
+
+.btn{
+    background-color: #007bff; /*color fondo botón*/
+    color: #fff; /*color del texto de botón*/
+    padding: 10px 20px; /* relleno de botón*/
+    text-decoration: none; /*quita decoración de enlace*/
+}
+/*estilo cuando pasa puntero sobre el botón*/
+.btn:hover{
+    background-color: #0056b3; /*establece color de fondo en hover boton*/
+}
+
+.destinos-container{
+    display: flex; /* utiliza flexbox para alinear elementos*/
+    justify-content: space-between; /*distribuye uniformemente los elementos*/
+    flex-wrap: wrap; /*si los elementos no caben en la misma línea, agrega una nueva línea con los elementos*/
+}
+.destinos{
+    width: calc(33.33% - 20px); /*establece el ancho de cada destino menos el espacio entre los destinos*/
+    margin-bottom: 20px; /*añade el margen inferior*/
+    text-align:center; /*centra el texto*/
+}
+
+.destinos img{
+    width: 100%; /*establece el ancho de la imagen ajustándola al elemento que lo contiene*/
+    border-radius: 8px; /* redondea la punta de las imágenes*/
+}
+.destinos h3{
+    margin-top:10px; /*agrega distancia entre imagen y h3*/
+}
+.destinos p{
+    margin-top:10px; /*agrega distancia entre imagen y h3*/
+}
+
+footer{
+    background-color: #333; /*establece color de fondo de footer*/
+    color: #fff; /*establece color de fondo de footer*/
+    text-align: center; /*centra el texto*/
+    padding: 20px 0; /*añade relleno superior e inferior*/
+}
+
+/*acá va el estilo del formulario de contacto*/
+
+#contacto{
+    padding:40px 0;
+}
+
+#contacto .container{
+    text-align: center;
+}
+
+#contacto h2{
+    margin-bottom:20px;
+}
+#contacto form{
+    max-width: 500px; /*establece el ancho máximo del elemento formulario*/
+    margin: 0 auto;/*centra horizontalmente dentro del contenedor*/
+    padding: 20px;
+    background-color: grey;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /*establece una sombra en el formulario*/
+}
+#contacto label{
+    display: block; /*etiquetas en bloques*/
+    margin-bottom: 10px;
+    font-weight: bold; /*establece fuente en negrita*/
+}
+#contacto input, #contacto textarea{
+    width: 100%;
+    padding:10px;
+    margin-bottom:20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box; /*incluye el padding y el borde del ancho dentro del elemento que lo contiene*/
+}
+
+#contacto textarea{
+    resize: vertical; /*permite redimensionar el área del texto pero verticalmente*/
+}
+
+#contacto .btn{
+    background-color: #007bff; /*color fondo botón*/
+    color: #fff; /*color del texto de botón*/
+    padding: 10px 20px; /* relleno de botón*/
+    text-decoration: none; /*quita decoración de enlace*/
+}
+#contacto .btn:hover{
+    background-color: #0056b3; /*establece color de fondo en hover boton*/
+}
+
+/*acá empieza la edición de la pestaña de paquetes*/
+#paquetes{
+    padding: 16px;
+}
+
+#paquetes{
+    padding: 0px;
+}
+/*banner de ingreso de datos como lugar de origen, etc.*/
+#personalización {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: skyblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#personalización label{
+    display: block; /*etiquetas en bloques*/
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.another-container {
+    display: flex;
+    align-items: center;
+    }
+
+    .another-container input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+
+    .another-container .first-divider {
+    width: 1px;
+    height: 30px;
+    background-color: #ccc;
+    margin: 0 1px;
+    }
+
+
+.input-container {
+    display: flex;
+    align-items: center;
+    }
+    .input-container input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    .input-container .divider {
+    width: 1px;
+    height: 30px;
+    background-color: #ccc;
+    margin: 0 5px;
+}
+    
+/*banner de paquetes */
+#pack_banner{
+    background-image: url('https://i.pinimg.com/originals/0e/f5/d9/0ef5d9f8f192840ca07962d98758f917.jpg');
+    background-size: cover; 
+    color: #fff; 
+    text-align: center; 
+    padding: 50px 0; 
+}
