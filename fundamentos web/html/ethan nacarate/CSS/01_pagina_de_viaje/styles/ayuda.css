@@ -147,3 +147,8 @@ background-color: beige;
 .ayuda ul li a{
     font-weight: bold;
 }
+.ayuda ul li a {
+    background: #6096cf;
+    box-sizing: border-box;
+    
+}

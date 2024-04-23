@@ -112,7 +112,7 @@
 #contacto label{
     display:block; /*etiquetas en bloque*/
     margin-bottom: 10px;
-    font-weight: ; /*establece la fuente negrita*/
+    font-weight: bold; /*establece la fuente negrita*/
 }
 #contacto input, #contacto textarea{
     width: 100%;
