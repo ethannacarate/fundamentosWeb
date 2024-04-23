@@ -38,7 +38,7 @@
     }
     
     #banner{
-        background-image: url('https://via.placeholder.com/1500x500');/*Establece la imagen de fondo del banner*/
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2qtazoVAZM2R6ox0TWyjW4GQaDLmKqJiWUDh94I2Y-Q&s1500x500');/*Establece la imagen de fondo del banner*/
         background-size: cover; /* Ajusta la imagen al área del banner */
         color: #fff; /* Establece color del texto */
         text-align: center; /* Centra el texto del banner*/
