@@ -38,7 +38,7 @@
     }
     
     #banner{
-        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2qtazoVAZM2R6ox0TWyjW4GQaDLmKqJiWUDh94I2Y-Q&s1500x500');/*Establece la imagen de fondo del banner*/
+        background-image: url('https://via.placeholder.com/1500x500');/*Establece la imagen de fondo del banner*/
         background-size: cover; /* Ajusta la imagen al área del banner */
         color: #fff; /* Establece color del texto */
         text-align: center; /* Centra el texto del banner*/
@@ -136,4 +136,13 @@ background-color: beige;
     display:inline; /* Alinea los elementos */
     margin-right: 20px; /* Margen hacia la derecha */
 }
+.ayuda ul li a{
+    text-decoration: none;
 
+}
+.ayuda ul li a{
+    color: #333;
+}
+.ayuda ul li a{
+    font-weight: bold;
+}

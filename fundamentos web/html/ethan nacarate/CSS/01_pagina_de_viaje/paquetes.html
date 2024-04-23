@@ -1,30 +1,132 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Empresa de Viajes</title>
-        <link rel="stylesheet" href="styles/style.css">
+        <title>Paquetes</title>
+        <link rel="stylesheet" href="styles/paquete.css">
+        <style>
+            .flex-container{
+                display:flex;
+                background-color: gray;
+                padding: 5px;
+
+                
+            }
+        </style>
     </head>
-    <body>
-        <header>
-            <div class="container">
-                <h1>Empresa de viaje</h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Inicio</a></li>
-                        <li><a href="destinos.html">Destinos</a></li>
-                        <li><a href="paquetes.html">Paquetes</a></li>
-                        <li><a href="contacto.HTML">Contacto</a></li>
-                        <li><a href="ayuda.html">ayuda</a></li>
-                        <li><a href="alojamiento.html">Alojamiento</a></li>
-                        <li><a href="turismo.html">turismo</a></li>
-                    </ul>
-                </nav>
+    <header>
+        <div class="container">
+            <h1>Empresa de viaje</h1>
+            <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="destinos.html">Destinos</a></li>
+                <li><a href="paquetes.html">Paquetes</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="alojamientos.html">Alojamientos</a></li>
+                <li><a href="turismo.html">Turismo</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
+    <!--aquí empieza el banner-->
+    <section id="pack_banner">
+        <div>
+            <h2>Paquetes de Viajes</h2>
+            <p>¡Personaliza tu paquete de viajes y ahorra!</p>
+        </div>
+    </section>
+    <!--Aquí empieza la personalización de paquetes-->
+    <section id="personalización">
+    <div class="container">
+            <form action="#" method="post">
+        <div class="another-container">
+            <label for="origen">Lugar de origen</label>
+            <input type="origen" placeholder="Indica lugar de origen">
+            <div class="first-divider"></div>
+            <label for="destino">Destino</label>
+            <input type="destino" placeholder="Indica lugar de destino">
+        </div>
+        <div class="input-container">
+            <label for="fechas">Fechas</label>
+            <input type="ida" placeholder="Indica fecha de ida">
+            <div class="divider"></div>
+            <input type="vuelta" placeholder="Indica fecha de vuelta">
+            <button  class="btn" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    </section>
+    <!--aquí comienza la sección de paquetes nacionales-->
+    <section id="nacionales"> 
+            <h2>Paquetes nacionales</h2>
+            <div class="paquetes-container">
+                    <div class="paquetes">
+                        <img src="https://ilamdir.org/blobs/ilamdir/w300h300-cropped/328/2019/36/137422_298ed6c0.jpg" alt="paquetes">
+                        <h3>Torres del paine</h3>
+                        <p>Precio:$330.000
+                            Vuelo + Alojamiento.
+                        </p>
+                    </div>
+                    
+                    <div class="paquetes">
+                        <img src="https://vacationer.vip/uru/wp-content/uploads/2019/05/Isla-de-Pascua-300x300.jpg" alt="paquetes">
+                        <h3>Isla de Pascua</h3>
+                        <p>Precio:$850.000
+                            Vuelo 5 días, 4 noches.
+                        </p>
+                    </div>
+                    
+                    <div class="paquetes">
+                        <img src="https://www.traveloffpath.com/wp-content/uploads/2023/11/beach-at-la-serena-chile-300x300.jpg" alt="paquetes">
+                        <h3>La Serena</h3>
+                        <p>Precio:$250.000
+                            Vuelo + Viaje turístico
+                        </p>
+                    </div>
+            <h2>Paquetes internacionales</h2>
+            <div class="paquetes-container">
+                    <div class="paquetes">
+                        <img src="https://via.placeholder.com/300" alt="paquetes">
+                        <h3>paquete 4</h3>
+                        <p>descripción del paquete</p>
+                    </div>
+
+                    <div class="paquetes">
+                        <img src="https://via.placeholder.com/300" alt="paquetes">
+                        <h3>paquete 5</h3>
+                        <p>descripción del paquete</p>
+                    </div>
+
+                    <div class="paquetes">
+                        <img src="https://via.placeholder.com/300" alt="paquetes">
+                        <h3>paquete 6</h3>
+                        <p>descripción del paquete</p>
+                    </div>
+
+                    <div class="paquetes">
+                        <img src="https://via.placeholder.com/300" alt="paquetes">
+                        <h3>paquete 7</h3>
+                        <p>descripción del paquete</p>
+                    </div>
+
+                    <div class="paquetes">
+                        <img src="https://via.placeholder.com/300" alt="paquetes">
+                        <h3>paquete 8</h3>
+                        <p>descripción del paquete</p>
+                    </div>
+
+                    <div class="paquetes">
+                        <img src="https://via.placeholder.com/300" alt="paquetes">
+                        <h3>paquete 9</h3>
+                        <p>descripción del paquete</p>
+                    </div>
+                </div>
             </div>
-        </header>
-        <footer>
-            <div>
-                <p>&copy; 2024 Empresa de Viajes. Todos los derechos reservados</p>
-            </div>
-        </footer>
-    </body>
-</html>
+    </section>
+    <!--Aquí va el pie de página-->
+    <footer>
+        <div>
+            <p>&copy; 2024 Empresa de Viajes. Todos los derechos reservados</p>
+        </div>
+    </footer>
