@@ -54,7 +54,7 @@ section {
 }
 
 .btn{
-    background-color: #007bff; /*color fondo botón*/
+    background-color: skyblue; /*color fondo botón*/
     color: #fff; /*color del texto de botón*/
     padding: 10px 20px; /* relleno de botón*/
     text-decoration: none; /*quita decoración de enlace*/
@@ -107,7 +107,8 @@ footer{
     max-width: 500px;/*establece el ancho maximo de del elemento formulario*/
     margin: 0 auto; /*centra horizontalmente dentro del contenedor*/
     padding: 20px;
-    background-color: bisque;
+    text-align:center;
+    background-color: #fff;
     border-radius: 8px;
     box-shadow:0 0 20px rgba(0, 0, 0, 1); /*establece una sombra al rededor del formulario*/
 }
@@ -128,7 +129,7 @@ footer{
     resize: vertical;
 }
 body{
-background-color: beige;
+background-color: #fff;
 }
 #alojamiento .container{
     width: 80%;
