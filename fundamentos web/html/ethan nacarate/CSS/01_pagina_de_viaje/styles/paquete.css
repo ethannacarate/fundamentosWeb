@@ -3,7 +3,7 @@
     outline:#333 solid black; 
 }
 body { /* Selección de body*/
-font-family: Arial, sans-serif ; /* Cambia tipografía */
+font-family: Arial, sans-serif; /* Cambia tipografía */
 margin: 0; /* Elimina todo el margen predefinido*/
 padding: 0; /* Elimina todo el relleno de los elementos*/
 }

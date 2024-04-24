@@ -1,96 +1,98 @@
-/* Estilos de pagina de viajes{
-    outline: solid rgb(255, 255, 255);
+/* Estilos de pagina de viajes  */
+*{
+    outline:#333 solid black; 
 }
-*/
-#body { /* Selección de body */
-    font-family:Arial, sans-serif ; /* Cambia tipografia */
-    margin: 0; /* Elimina todo el margen predefinido */
-    padding: 0; /* Elimina todo el relleno de los elementos */
-    }
-    /* Acá viene el estilo de una clase container */
-    .container {
-        width: 80%; /* Establece el ancho del contenedor en un 80% */
-        margin: 0 auto; /* Centra horizontalmente el contenedor */
-    }
-    /* Estilo de encabezado */
-    header {
-        background-color: #333; /* Establece el color de fondo */
-        color: #fff; /* Establece el color del texto */
-        padding: 20px 0; /* Añade relleno superior e inferior */
-    }
-    
-    header h1{
-        margin: 0; /* Elimina el margen por defecto del título */
-    }
-    /* Estilo de elemento de lista */
-    nav ul li{
-        display:inline; /* Alinea los elementos */
-        margin-right: 20px; /* Margen hacia la derecha */
-    }
-    /* Estilo a elementos de vinculo ancla de navegacion */
-    nav ul li a{
-        color:#fff; /* Color a elemento Anchor */
-        text-decoration: none; /* Quita subrayado de enlaces */
-    }
-    
-    #section {
-        padding: 40px 0; /* Añade relleno superior e inferior  */
-    }
-    
-    #banner{
-        background-image: url('https://img.rtve.es/imagenes/consejos-viajar-avion-ahorrar/1634194794236.jpg');/*Establece la imagen de fondo del banner*/
-        background-size: cover; /* Ajusta la imagen al área del banner */
-        color: #fff; /* Establece color del texto */
-        text-align: center; /* Centra el texto del banner*/
-        padding: 10px 0; /* Define relleno superior e inferior */
-    }
-    #banner h2{
-        font-size: 46px; /* Establece tamaño de h2 */
-    }
-    #banner p{
-        font-size: 28px; /* Establece tamaño de p */
-        margin-bottom: 20px; /* Define margen inferior*/
-    }
-    #banner h2{
-        font-size: 46px; /* Establece tamaño de h2 */}
-    .btn{
-        background-color: #007bff; /* Color fondo boton */
-        color: #ffffff; /* Color del texto del boton */
-        padding: 10px 20px; /* Relleno del boton */
-        text-decoration: none; /* Quita decoración de enlace*/
-    }
-    /* Estilo cuando pasa puntero sobre el boton */
-    .btn:hover {
-        background-color: #01172e; /* Establece color de fondo en hover boton */
-    }
+body { /* Selección de body*/
+font-family: Arial, sans-serif ; /* Cambia tipografía */
+margin: 0; /* Elimina todo el margen predefinido*/
+padding: 0; /* Elimina todo el relleno de los elementos*/
+}
+/*Acá viene el estilo de una clase container*/
+.container {
+    width: 80%; /* establece el ancho del contenedor en un 80% */
+    margin: 0 auto; /* centra horizontalmente el contenedor */
+}
 
-    .destinos-container{
-        display: flex; /* utiliza flexbox para alinear los elementos*/
-        justify-content: space-between; /*distribuye uniformemente los elementos*/
-        flex-wrap: wrap; /*si los elementos no caben en la misma linea agrega una nueva*/
-    }
-    .destino{
-        width: calc(33.33% - 20px); /*establece el ancho de cada destino menos el espacio entre los destinos */
-        margin-bottom: 20px; /*define el margen inferior*/
-        text-align: center; /*centra el texto*/
-    }
+/* estilo de encabezado*/
+header {
+    background-color: #333; /* establece el color de fondo */
+    color: #fff; /* establece el color del texto*/
+    padding: 20px 0; /* añadir relleno superior e inferior*/
+}
 
-    .destino img{
-        width: 100%; /*establece el ancho de la imagen ajustandola al elemento que la contiene*/
-        border-radius: 8 px; /* agrega esquinas redondeadas */
-    }
-    .destino h3{
-    margin-top: 10px; /*agrega distancia entre la imagen y h3*/
-    }
-    .destino p{
-    margin-top: 10px; /*agrega deistancia superior entre h3 y p*/
-    }
-    footer{
-        background-color: #333; /* Establece color fondo de footer */
-        color: #fff; /* Establece color de texto de footer */
-        text-align: center; /* Centra el texto */
-        padding: 20px 0; /* Añade relleno superior e inferior */
-    }
+header h1{
+    margin: 0; /* elimina el margen por defecto del título*/
+}
+/* estilo de elemento de lista*/
+nav ul li{
+    display:inline; /*alinea los elementos*/
+    margin-right: 20px; /*margen hacia la derecha*/
+}
+/*estilo a elementos de vinculo ancla de navegación*/
+nav ul li a{
+    color: #fff; /*color a elemento anchor*/
+    text-decoration: none; /*quita subrayado de enlaces*/
+}
+
+section {
+    padding: 40px 0; /*añade relleno superior e inferior */
+}
+
+#banner{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/013/282/208/non_2x/beautiful-sunset-tropical-beach-with-palm-tree-and-illuminated-for-travel-in-holiday-relax-time-free-photo.jpg'); /* establece la imagen de fondo del banner*/
+    background-size: cover; /* ajusta la imagen al área del banner*/
+    color: #fff; /*establece color del texto*/
+    text-align: center; /*centra el texto del banner*/
+    padding: 100px 0; /* define relleno superior e inferior*/
+}
+#banner h2{
+    font-size: 36px; /*establece tamaño de texto de h2*/
+}
+#banner p{
+    font-size: 18px; /* estbalece tamaño de p*/
+    margin-bottom:20px; /*define margen inferior*/
+}
+
+.btn{
+    background-color: #007bff; /*color fondo botón*/
+    color: #fff; /*color del texto de botón*/
+    padding: 10px 20px; /* relleno de botón*/
+    text-decoration: none; /*quita decoración de enlace*/
+}
+/*estilo cuando pasa puntero sobre el botón*/
+.btn:hover{
+    background-color:skyblue; /*establece color de fondo en hover boton*/
+}
+
+.destinos-container{
+    display: flex; /* utiliza flexbox para alinear elementos*/
+    justify-content: space-between; /*distribuye uniformemente los elementos*/
+    flex-wrap: wrap; /*si los elementos no caben en la misma línea, agrega una nueva línea con los elementos*/
+}
+.destinos{
+    width: calc(33.33% - 20px); /*establece el ancho de cada destino menos el espacio entre los destinos*/
+    margin-bottom: 20px; /*añade el margen inferior*/
+    text-align:center; /*centra el texto*/
+}
+
+.destinos img{
+    width: 100%; /*establece el ancho de la imagen ajustándola al elemento que lo contiene*/
+    border-radius: 8px; /* redondea la punta de las imágenes*/
+}
+.destinos h3{
+    margin-top:10px; /*agrega distancia entre imagen y h3*/
+}
+.destinos p{
+    margin-top:10px; /*agrega distancia entre imagen y h3*/
+}
+
+footer{
+    background-color: #333; /*establece color de fondo de footer*/
+    color: #fff; /*establece color de fondo de footer*/
+    text-align: center; /*centra el texto*/
+    padding: 20px 0; /*añade relleno superior e inferior*/
+}
+
     /*aqui va el estilo del formulario de contacto*/
     #contacto{
         padding: 40px 0;
