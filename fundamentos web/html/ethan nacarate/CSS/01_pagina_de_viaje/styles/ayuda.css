@@ -126,7 +126,7 @@
     resize: vertical;
 }
 body{
-background-color: beige;
+background-color: #fff;
 }
 #alojamiento .container{
     width: 80%;
@@ -148,7 +148,7 @@ background-color: beige;
     font-weight: bold;
 }
 .ayuda ul li a {
-    background: #6096cf;
+    background: skyblue;
     box-sizing: border-box;
     
 }

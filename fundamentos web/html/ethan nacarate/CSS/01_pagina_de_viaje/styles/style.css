@@ -95,41 +95,45 @@ footer{
 
     /*aqui va el estilo del formulario de contacto*/
     #contacto{
-        padding: 40px 0;
+        padding:40px 0;
     }
-#contacto.container{
-    text-align: ceneter;
-}
-#contacto h2{
-    margin-bottom: 20px;
-}
-#contacto form{
-    max-width: 500px;/*establece el ancho maximo de del elemento formulario*/
-    margin: 0 auto; /*centra horizontalmente dentro del contenedor*/
-    padding: 20px;
-    background-color: bisque;
-    border-radius: 8px;
-    box-shadow:0 0 20px rgba(0, 0, 0, 1); /*establece una sombra al rededor del formulario*/
-}
-#contacto label{
-    display:block; /*etiquetas en bloque*/
-    margin-bottom: 10px;
-    font-weight: bold; /*establece la fuente negrita*/
-}
-#contacto input, #contacto textarea{
-    width: 100%;
-    padding:10PX;
-    margin-bottom: 20px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    box-sizing: border-box; /*incluye el padding y el borde del a*/
-}
-#contacto textarea{
-    resize: vertical;
-}
-body{
-background-color: beige;
-}
+    
+    #contacto .container{
+        text-align: center;
+    }
+    
+    #contacto h2{
+        margin-bottom:20px;
+    }
+    #contacto form{
+        max-width: 500px; /*establece el ancho máximo del elemento formulario*/
+        margin: 0 auto;/*centra horizontalmente dentro del contenedor*/
+        padding: 20px;
+        background-color: skyblue;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 1); /*establece una sombra en el formulario*/
+    }
+    #contacto label{
+        display: block; /*etiquetas en bloques*/
+        margin-bottom: 10px;
+        font-weight: bold; /*establece fuente en negrita*/
+    }
+    #contacto input, #contacto textarea{
+        width: 100%;
+        padding:10px;
+        margin-bottom:20px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        box-sizing: border-box; /*incluye el padding y el borde del ancho dentro del elemento que lo contiene*/
+    }
+    
+    #contacto textarea{
+        resize: vertical; /*permite redimensionar el área del texto pero verticalmente*/
+    }
+    
+    #contacto .btn{
+        background-color: black;
+    }
 #alojamiento .container{
     width: 80%;
     margin: 0 auto;
