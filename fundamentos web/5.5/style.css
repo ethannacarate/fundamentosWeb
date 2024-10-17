@@ -1,0 +1,32 @@
+.nav{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 7px;
+}
+a{
+    text-decoration: none;
+    color: #cfcece;
+    font: oblique bold 85% cursive;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+h1{
+    font: oblique bold 115% cursive;
+    color: white;
+}
+.btn{
+    background-color: #12acc4;
+    border: none;
+    color:white;
+    font: oblique bold 70% cursive;
+    cursor:pointer;
+    box-shadow:  0 5px rgb(0, 0, 0)
+}
+.nav-links{
+    display: flex;
+    justify-content:space-between;
+    list-style:none ;
+}

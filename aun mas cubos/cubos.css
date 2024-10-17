@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 599px;
+    height: 6090px;
+    background-color: black;
+}
+.content{
+    height: 378px;
+    width: 400px;
+    background-color: #ff0000;
+    position: absolute;
+    top: 0px; left: 198px;
+
+}
+.pading{
+    background-color: #ffffff;
+    height: 178px;
+    width: 142px;
+}
+.cls{
+    background-color: #045b9f;
+    height: 268px;
+    width: 144px;
+    position: absolute;
+    top: 390px; left: 0px;
+}
+.amarillo{
+    background-color: #eeda6a;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 508px; left: 499px;
+}
+.blanco{
+    background-color: #ffffff;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 390px; left: 499px;
+}
+.bajo{
+    background-color: #ffffff;
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 390px; left: 170px;
+}
+.lado{
+    background-color: #ffffff;
+    height: 165px;
+    width: 142px;
+    position: absolute;
+    top: 190px; left: 0px;
+}

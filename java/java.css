@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#nombre {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 15px;
+    border: 2px solid #333;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 10px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#mensaje {
+    margin-top: -7px;
+    font-size: 1.2rem;
+    color: #007bff;
+}
+
+#mostrar, #ocultar {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#datos-empresa {
+    margin-top: 10px;
+}
+
+#ocultar{
+    position: absolute;
+    left: 120px;top: 327px;
+}
+
+#mostrar{
+    position: absolute;
+    left: 0px;top: 327px;
+}
