@@ -1,0 +1,252 @@
+<html>
+ <head>
+  <title>
+   Profile
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .navbar .signout {
+            margin-left: auto;
+            background-color: #00aaff;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .profile-card {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-right: 20px;
+            width: 60%;
+        }
+        .profile-card img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        
+        .profile-card h2 {
+            margin: 0;
+        }
+        .profile-card p {
+            margin: 5px 0;
+        }
+        .profile-card .edit-profile {
+            color: #00aaff;
+            text-decoration: none;
+        }
+        .sidebar {
+            width: 35%;
+        }
+        .sidebar .card {
+            background-color: #fff;
+            padding: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .sidebar .card h3 {
+            margin: 0;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        .sidebar .card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar .card ul li {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .sidebar .card ul li:last-child {
+            border-bottom: none;
+        }
+        .sidebar .card ul li img {
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            margin-right: 10px;
+        }
+        .sidebar .card ul li .actions {
+            margin-left: auto;
+        }
+        .sidebar .card ul li .actions i {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .education {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .education h3 {
+            margin: 0;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+        .education p {
+            margin: 10px 0;
+        }
+        .view-more {
+            color: #00aaff;
+            text-decoration: none;
+            display: block;
+            text-align: right;
+            margin-top: 10px;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="navbar">
+    <a href="#">
+        Profile
+    </a>
+    <a href="#">
+        Home
+    </a>
+    <a href="#">
+        My Profile
+    </a>
+    <a href="#">
+        Find Connections
+    </a>
+    <a class="signout" href="#">
+    Sign Out
+    </a>
+    </div>
+    <div class="container">
+    <div class="profile-card">
+    <div style="background-color: #00aaff; padding: 20px; text-align: center;">
+    <img alt="Profile picture" height="100" src="https://storage.googleapis.com/a1aa/image/QZ5DEvxMIcJfT6G6GkmcQ0z8CI2jlTviQVlOAWJQGrhpd00JA.jpg" width="100"/>
+    </div>
+    <h2>
+    Jane Doe
+    </h2>
+    <p>
+    <i class="fas fa-map-marker-alt">
+    </i>
+        Seattle
+    </p>
+    <p>
+    Developer | Engineer | Problem Solver
+    </p>
+    <p>
+    Master of shadows and the Internet!
+    </p>
+    <img alt="gear-picture" src="img/gear.png"/>
+    <a class="edit-profile" href="#">
+    edit profile
+    </a>
+    </div>
+    <div class="sidebar">
+    <div class="card">
+    <h3>
+        2 Connection Requests
+    </h3>
+    <ul>
+    <li>
+    <img alt="Profile picture" height="40" src="img/todd-s.jpg" width="40"/>
+    <span>
+        Todd E
+    </span>
+    <div class="actions">
+        <i class="fas fa-check">
+        </i>
+        <i class="fas fa-times">
+        </i>
+        </li>
+        <li>
+        <img alt="Profile picture" height="40" src="img/phil-s.jpg" width="40"/>
+        <span>
+        Phil K
+        </span>
+        <div class="actions">
+            <i class="fas fa-check">
+        </i>
+        <i class="fas fa-times">
+        </i>
+        </div>
+        </li>
+        </ul>
+    </div>
+    <div class="card">
+        <h3>
+            500+ Your Connections
+        </h3>
+        <ul>
+            <li>
+                <img alt="Profile picture" height="40" src="img/adrien-s.jpg" width="40"/>
+            <span>
+        Adrien D
+        </span>
+        </li>
+        <li>
+        <img alt="Profile picture" height="40" src="img/anne-s.jpg" width="40"/>
+        <span>
+        Anne J
+        </span>
+        </li>
+        <li>
+        <img alt="Profile picture" height="40" src="img/alayne-s.jpg" width="40"/>
+        <span>
+        Alayne T
+        </span>
+        </li>
+        <li>
+        <img alt="Profile picture" height="40" src="img/arry-s.jpg" width="40"/>
+        <span>
+        Arry Y
+        </span>
+        </li>
+        </ul>
+        <a class="view-more" href="#">
+        View More
+        </a>
+    </div>
+    </div>
+    </div>
+    <div class="education">
+    <h3>
+    Education
+    </h3>
+    <p>
+    <strong>
+    Coding Dojo - Full Stack Bootcamp
+    </strong>
+    </p>
+    <p>
+    Dec 2019 - Mar 2020
+    </p>
+    <p>
+    Triple black belt in Python, MERN, and C#...
+    </p>
+</div>
+</body>
+</html>
