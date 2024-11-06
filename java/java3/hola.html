@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/formulario.ico">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro de Personas</title>
+</head>
+<body>
+
+<h1>Registro de Personas</h1>
+
+<!-- Formulario de entrada -->
+<form id="form">
+    <input type="text" id="rut" placeholder="RUT (12345678-K)" required>
+    <input type="text" id="nombre" placeholder="Nombre" required>
+    <input type="text" id="apellidos" placeholder="Apellidos" required>
+    <input type="email" id="correo" placeholder="Correo Electrónico" required>
+    <input type="tel" id="celular" placeholder="N° de Celular" required>
+    <button type="submit">Agregar Persona</button>
+</form>
+
+<!-- Tabla para mostrar los datos -->
+<table id="tablaPersonas">
+    <thead>
+        <tr>
+            <th>RUT</th>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Correo Electrónico</th>
+            <th>N° de Celular</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+</table>
+
+<!-- Cargar el script JavaScript -->
+<script src="hola.js"></script>
+</body>
+</html>
