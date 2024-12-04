@@ -155,14 +155,44 @@ button {
     height: 69vh; /* Altura proporcional al viewport */
 }
 
-.uuh {
-    padding-left: 15vh;
-    padding-top: 8vh;
-    width: 25vh;
-    border-radius: 60px;
+.niña{
+    height: 250px;
     display: flex;
-    padding-right: 15vh;
 }
+
+
+
+.image{
+    margin-left: 200px;
+}
+
+
+
+
+
+.locales{
+    background-color: #efe0cc;
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 300px;
+    padding-top: 30px;
+    display: flex;
+    width: 1200px;
+}
+
+.local{
+    justify-content: start;
+}
+
+#locales{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(109, 31, 31);
+}
+
+
 
 #iu {
     padding-left: 12vh;
