@@ -26,11 +26,11 @@ nav {
 }
 
 .nav {
-    width: 5vh; /* Ancho proporcional al viewport */
     padding-left: 12vh; /* Espaciado a la izquierda */
 }
 
 .navbar {
+    height: 50px;
     color: #e6d9c6; /* Color del texto */
     padding: 9px; /* Espaciado interno */
     display: flex; /* Uso de flexbox */
