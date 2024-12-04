@@ -1,48 +1,59 @@
-* {
-    outline: 2px solid black;
-}
-
-.nav {
-    width: 5vh;
-    padding-left: 12vh;
-
-}
-
-.navbar {
-    color: #e6d9c6;
-    padding: 9px;
-    display: flex;
-}
-
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.navbar {
-    color: #e6d9c6;
-    padding: 9px;
-    display: flex;
-}
-
-.pner {
-    width: 100%;
-    height: 69vh;
-}
-
+/* Estilos generales */
 body {
-    padding: 0px;
-    margin: 0px;
-    background-color: #F5EBDC;
+    margin: 0px; /* Elimina márgenes por defecto */
+    padding: 0px; /* Elimina el relleno por defecto */
+    background-color: #f5ebdc; /* Color de fondo */
+    font-family: Arial, sans-serif; /* Fuente predeterminada */
+}
+
+h2 {
+    color: #5c3a1d; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+    text-align: center; /* Centra el texto */
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none; /* Elimina el subrayado */
+    color: black; /* Color del texto */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Fuente moderna */
 }
 
+/* Navegación */
+nav {
+    display: flex; /* Flexbox para organizar elementos */
+    align-items: center; /* Alineación vertical */
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.nav {
+    width: 5vh; /* Ancho proporcional al viewport */
+    padding-left: 12vh; /* Espaciado a la izquierda */
+}
+
+.navbar {
+    color: #e6d9c6; /* Color del texto */
+    padding: 9px; /* Espaciado interno */
+    display: flex; /* Uso de flexbox */
+}
+
+/* Estilos para botones */
+button {
+    position: absolute; /* Posición relativa al contenedor */
+    left: 129vh; /* Distancia desde el borde izquierdo */
+    top: 2.5vh; /* Distancia desde el borde superior */
+    border-radius: 90vh; /* Bordes redondeados */
+    background-color: #d72300; /* Color de fondo */
+    display: block; /* Elemento bloque */
+    margin: 0 auto; /* Centra el botón horizontalmente */
+    color: #ffffff; /* Color del texto */
+    border: none; /* Sin borde */
+    text-align: center; /* Texto centrado */
+    width: 36vh; /* Ancho del botón */
+    height: 5.5vh; /* Altura del botón */
+    font-weight: bolder; /* Texto en negrita */
+}
+
+/* Posiciones específicas para enlaces de navegación */
 .nive {
     position: absolute;
     left: 25vh;
@@ -85,20 +96,63 @@ a {
     top: 3.6vh;
 }
 
-button {
-    position: absolute;
-    left: 129vh;
-    top: 2.5vh;
-    border-radius: 90vh;
-    background-color: #D72300;
-    display: block;
-    margin: 0 auto;
-    color: #ffffff;
-    border: none;
-    text-align: center;
-    width: 36vh;
-    height: 5.5vh;
-    font-weight: bolder;
+/* Contenedor de cupones */
+.cupones {
+    max-width: 1200px; /* Ancho máximo */
+    margin: 0 auto; /* Centra horizontalmente */
+}
+
+.cupon-container {
+    display: flex; /* Flexbox para organizar elementos */
+    justify-content: space-between; /* Espacio uniforme entre cupones */
+    gap: 20px; /* Espaciado entre elementos */
+    flex-wrap: wrap; /* Permite que los elementos ocupen varias filas */
+}
+
+/* Estilos individuales de los cupones */
+.cupon {
+    background-color: #fff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; /* Oculta el contenido fuera de los bordes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center; /* Centra el texto */
+    width: 23%; /* Ancho relativo al contenedor */
+    max-width: 350px; /* Ancho máximo */
+    padding: 20px; /* Espaciado interno */
+}
+
+.cupon img {
+    width: 100%; /* Imagen ocupa todo el ancho */
+    border-radius: 8px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espaciado inferior */
+}
+
+.precio-original {
+    text-decoration: line-through; /* Línea tachada */
+    color: #a0a0a0; /* Color gris */
+    font-size: 1.1rem; /* Tamaño de fuente */
+}
+
+.precio-descuento {
+    color: #d32f2f; /* Color rojo */
+    font-size: 1.5rem; /* Tamaño grande */
+    font-weight: bold; /* Texto en negrita */
+    margin: 5px 0; /* Margen superior e inferior */
+}
+
+.ver-mas {
+    display: block; /* Elemento bloque */
+    margin: 20px 0 0; /* Margen superior */
+    text-align: center; /* Centra el texto */
+    text-decoration: none; /* Sin subrayado */
+    color: #d32f2f; /* Color rojo */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos específicos */
+.pner {
+    width: 100%; /* Ancho completo */
+    height: 69vh; /* Altura proporcional al viewport */
 }
 
 .uuh {
@@ -114,171 +168,90 @@ button {
     padding-left: 12vh;
     color: #502314;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
-.helado {
-    width: 60vh;
+.helado,
+.hamburguesa,
+.sano {
+    width: 60vh; /* Ancho fijo */
 }
 
 .novedades {
-    display: flex;
-    justify-content: space-around;
-}
-
-.hamburguesa {
-    width: 60vh;
-}
-
-.sano {
-    width: 60vh;
+    display: flex; /* Flexbox para alinear imágenes */
+    justify-content: space-around; /* Espacio uniforme entre imágenes */
 }
 
 .celu {
-    width: 95%;
-    height: 65vh;
+    width: 95%; /* Ancho casi completo */
+    height: 65vh; /* Altura proporcional al viewport */
 }
 
 /* Estilos para el footer */
 .footer {
-    background-color: #5c2d15;
-    color: #ffffff;
-    padding: 40px 20px;
-    font-family: 'Arial', sans-serif;
+    background-color: #5c2d15; /* Fondo marrón oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding: 40px 20px; /* Espaciado interno */
+    font-family: 'Arial', sans-serif; /* Fuente Arial */
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: 100%; /* Ancho completo */
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: flex; /* Flexbox para organización */
+    justify-content: space-between; /* Espacio entre secciones */
+    flex-wrap: wrap; /* Ajuste en varias filas si es necesario */
 }
 
 .footer-section {
-    margin: 10px;
-    flex: 1;
-    min-width: 200px;
+    margin: 10px; /* Margen alrededor */
+    flex: 1; /* Crece de forma uniforme */
+    min-width: 200px; /* Ancho mínimo */
 }
 
 .footer-section h2,
 .footer-section h3 {
-    color: #ffffff;
-    font-weight: bold;
-    margin-bottom: 10px;
+    color: #ffffff; /* Texto blanco */
+    font-weight: bold; /* Texto en negrita */
+    margin-bottom: 10px; /* Espaciado inferior */
 }
 
 .footer-section ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Sin viñetas */
+    padding: 0; /* Sin relleno */
 }
 
 .footer-section ul li {
-    margin-bottom: 8px;
+    margin-bottom: 8px; /* Espaciado inferior */
 }
 
 .footer-section ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    transition: color 0.3s;
+    color: #ffffff; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    transition: color 0.3s; /* Transición suave al pasar el ratón */
 }
 
 .footer-section ul li a:hover {
-    color: #FFD700;
+    color: #ffd700; /* Color dorado al pasar el ratón */
 }
 
 .footer-section.social a {
-    margin: 0 10px;
+    margin: 0 10px; /* Espaciado entre iconos */
 }
 
 .footer-section.social img {
-    width: 24px;
+    width: 24px; /* Tamaño fijo del icono */
     height: 24px;
 }
 
 .footer-bottom {
-    text-align: center;
-    border-top: 1px solid #ffffff;
-    margin-top: 20px;
-    padding-top: 10px;
+    text-align: center; /* Centra el texto */
+    border-top: 1px solid #ffffff; /* Línea separadora */
+    margin-top: 20px; /* Espaciado superior */
+    padding-top: 10px; /* Relleno superior */
 }
 
 .footer-bottom p {
-    margin: 0;
-    font-size: 14px;
-}
-
-/* Estilos generales */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f4ec;
-    margin: 0;
-    padding: 20px;
-}
-
-h2 {
-    color: #5c3a1d;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-/* Contenedor de cupones */
-.cupones {
-    max-width: 1200px;
-    margin: 0 auto;
-
-}
-
-.cupon-container {
-    display: flex;
-    justify-content: space-between;
-    /* Espaciado uniforme entre los cupones */
-    gap: 20px;
-    /* Espaciado entre los elementos */
-    flex-wrap: wrap;
-    /* Permite que los elementos se ajusten en múltiples líneas si es necesario */
-}
-
-/* Estilos individuales de los cupones */
-.cupon {
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 23%;
-    /* Cada cupón ocupa el 30% del ancho */
-    max-width: 350px;
-    /* Limita el tamaño máximo */
-    padding: 20px;
-}
-
-.cupon img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-.precio-original {
-    text-decoration: line-through;
-    color: #a0a0a0;
-    font-size: 1.1rem;
-}
-
-.precio-descuento {
-    color: #d32f2f;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 5px 0;
-}
-
-
-.ver-mas {
-    display: block;
-    margin: 20px 0 0;
-    text-align: center;
-    text-decoration: none;
-    color: #d32f2f;
-    font-weight: bold;
+    margin: 0; /* Sin margen */
+    font-size: 14px; /* Tamaño de texto reducido */
 }
